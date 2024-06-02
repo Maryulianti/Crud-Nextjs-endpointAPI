@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 //Button Tambah Data
 export const CreateButton = () => {
     return (
-        <Link as="font" href="/books/create" className="inline-flex items-center space-x-1 text-white
+        <Link href="/books/create" className="inline-flex items-center space-x-1 text-white
         bg-blue-700 hover:bg-blue-800 px-5 py-[9px] rounded-sm text-sm">
             <IoAddSharp size = {20} />
             Create
@@ -18,7 +18,7 @@ export const CreateButton = () => {
 // Button Edit Data
 export const EditButton = ({ id }: { id: string }) => {
     return (
-        <Link as="font" href={`/books/update/${id}`} className="rounded-sm border p-1 hover:bg-gray-100">
+        <Link href={`/books/update/${id}`} className="rounded-sm border p-1 hover:bg-gray-100">
             <IoPencil size={20} />
             Edit
         </Link>
