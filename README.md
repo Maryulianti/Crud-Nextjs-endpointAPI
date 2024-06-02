@@ -30,19 +30,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 npm run dev
 ```
 untuk menjalankan aplikasi lewat server/localhost
+
 2. Tampilan halaman web berada pada link [http://localhost:3000/books](http://localhost:3000/books), Tampilannya seperti dibawah ini:
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/1.JPG?raw=true)
-Aplikasi sudah terhubung dengan database yaitu postgresql melalui Vercel
+Aplikasi sudah terhubung dengan database yaitu postgresql melalui Vercel.
+
 3. JIka ingin menambah data, tekan tombol create maka akan beralih ke halaman create seperti dibawah ini:
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/2.JPG?raw=true)
 setelah selesai tekan tombol Save, secara otomatis kembali ke halaman awal
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/3.JPG?raw=true)
 data yang di masukan berhasil di tambahkan
+
 4. Kemudian jika melakukan update pada data, tekan tombol edit maka secara otomatis beralih ke halaman update
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/4.JPG?raw=true)
 pada halaman ini API untuk kembali menangkap data sesuai labelnya, Sebelumnya ada data buku bernama Bumi Manusia, disini di update bagian Genrenya yang mulanya Sejarah dan Fiksi. Lalu di Update Manjadi Sejarah. Setelah selesai tekan tombol Update, dan kembali ke halaman awal
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/5.JPG?raw=true)
-6. Selanjutnya Jika melakukan hapus/delete, tekan tombol delete, maka hasilnya seperti ini:
+
+5. Selanjutnya Jika melakukan hapus/delete, tekan tombol delete, maka hasilnya seperti ini:
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/6.JPG?raw=true)
 akan ada peringatan sebelum datta dihapus. Tekan ok maka kembali muncul peringatan successfully
 ![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/7.JPG?raw=true)
