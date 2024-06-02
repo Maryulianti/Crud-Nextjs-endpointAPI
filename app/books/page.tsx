@@ -1,7 +1,7 @@
 import BookTable from "@/components/book-table";
 import { CreateButton } from "@/components/button";
 
-// export const runtime = "edge";
+export const runtime = "edge";
 
 const Books = () => {
     return (
