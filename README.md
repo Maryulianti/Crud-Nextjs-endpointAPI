@@ -31,6 +31,7 @@ npm run dev
 ```
 untuk menjalankan aplikasi lewat server/localhost
 2. Tampilan halaman web berada pada link [http://localhost:3000/books](http://localhost:3000/books), Tampilannya seperti dibawah ini:
+![alt_text](https://github.com/Maryulianti/Crud-Nextjs-endpointAPI/blob/main/Gambar%20Demo%20apk/1.JPG?raw=true)
 
 
 ## Deploy on Vercel
