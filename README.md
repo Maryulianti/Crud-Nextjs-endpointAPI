@@ -23,6 +23,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+
+## Demo Apk
+1. Jalankan perintah 
+```bash
+npm run dev
+```
+untuk menjalankan aplikasi lewat server/localhost
+2. Tampilan halaman web berada pada link [http://localhost:3000/books](http://localhost:3000/books), Tampilannya seperti dibawah ini:
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
