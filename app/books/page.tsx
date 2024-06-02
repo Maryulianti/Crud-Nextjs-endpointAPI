@@ -1,5 +1,8 @@
 import BookTable from "@/components/book-table";
 import { CreateButton } from "@/components/button";
+
+export const runtime = "edge";
+
 const Books = () => {
     return (
         <div className="max-w-screen-md mx-auto mt-5">
